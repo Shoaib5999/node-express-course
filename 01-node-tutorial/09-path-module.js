@@ -9,5 +9,6 @@ console.log(filePath)
 const base = path.basename(filePath)
 console.log(base)
 
-const absolute = path.resolve(__dirname, 'content', 'subfolder', 'test.txt')
+const absolute = path.resolve(__dirname, 'content', 'subfolder', 'test.txt')  // __dirname gives us the current path  and path.resolve is linking the current path with the text.txt and giving us absolute path
+
 console.log(absolute)
